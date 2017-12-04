@@ -1,8 +1,27 @@
-<script>
-
-</script>
-
-
 <template>
-<h1>Hello</h1>
+
+    <div>
+        <headercontent>
+
+        </headercontent>
+        <maincontent>
+
+        </maincontent>
+        <footercontent>
+
+        </footercontent>
+    </div>
 </template>
+<script>
+    import headercontent from './headercontent'
+    import maincontent from './maincontent'
+    import footercontent from './footercontent'
+    export default {
+components:{
+    headercontent,
+    maincontent,
+    footercontent
+},
+
+}
+</script>
